@@ -1,45 +1,37 @@
-# Computer Vision Project
+# Face Detection App with OpenCV
 
-This is the starting point of my Computer Vision project using Python and OpenCV. The project will explore basic computer vision tasks such as reading, displaying, and processing images.
+This is a simple computer vision project built with Python and OpenCV. It uses your webcam to detect faces in real time using Haar cascade classifiers.
 
----
+## Features
 
-## 👀 What It Does
+- Real-time face detection using webcam
+- Uses OpenCV's Haar cascade for frontal face detection
+- Simple and beginner-friendly
 
-- Displays a welcome message.
-- Loads and displays an image using OpenCV.
-- Sets up the foundation for more advanced computer vision tasks.
+## How to Run
 
----
-
-## 🧰 Tools & Technologies
-
-- Python
-- OpenCV (`opencv-python`)
-
----
-
-## ▶️ How to Run
-
-1. Make sure you have Python installed.
-2. Install OpenCV by running:
+1. Clone the repository or download the code.
+2. Make sure Python is installed.
+3. Install the required packages:
    ```bash
-   pip install opencv-python
-Place an image in the project folder (e.g., sample.jpg).
-
-Run the script using:
+   pip install -r requirements.txt
+Run the app:
 
 bash
 Copy
 Edit
-python main.py
-📁 Files
-main.py – Main Python script.
+python computer_vision_app.py
+Press q to close the camera window.
 
-README.md – Project documentation.
+Requirements
+Python 3.7+
 
-👤 Author
-Bryan Jubril (Spencer)
+OpenCV
 
-📌 Status
-Project is at an early stage. More computer vision features (like face detection, edge detection, etc.) will be added soon.
+Numpy
+
+Author
+Agboola Jubril Olamilekan
+
+License
+This project is licensed under the MIT License.
